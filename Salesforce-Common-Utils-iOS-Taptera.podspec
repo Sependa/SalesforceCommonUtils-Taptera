@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.vendored_libraries = "libSalesforceCommonUtils.a"
-  s.source = "Headers/*.h"
+  s.source_files = "Headers/*.h"
 
 end
