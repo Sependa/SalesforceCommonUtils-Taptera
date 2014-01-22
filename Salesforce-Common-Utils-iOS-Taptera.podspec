@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary = "Taptera version of Salesforce CommonUtils for iOS."
   s.homepage = "https://github.com/Taptera/SalesforceCommonUtils-Taptera"
   s.license      = {:type => 'custom', :file => 'LICENSE.md'}
-  s.author = { "Taptera" => "ios-devs@taptera.com" }
+  s.author = 'Salesforce'
   s.source = { :git => "https://github.com/Taptera/SalesforceCommonUtils-Taptera.git", :tag => "v#{s.version}" }
   s.platform  = :ios, '6.0'
 
