@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "libSalesforceCommonUtils.a"
   s.source_files = "Headers/*.h"
 
+  s.prefix_header_file = 'Salesforce-Common-Utils-iOS.pch'
+
 end
