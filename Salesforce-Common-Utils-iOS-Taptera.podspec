@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack', '1.6.4'
 
   s.frameworks = 'MessageUI', 'libz.dylib'
-
+  s.library = 'libz'
 end
