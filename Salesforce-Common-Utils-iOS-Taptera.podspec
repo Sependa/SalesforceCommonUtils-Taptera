@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.source_files = "Headers/*.h"
   s.header_dir = 'SalesforceCommonUtils'
 
-  s.frameworks = "MessageUI"
+  s.dependency 'CocoaLumberjack', '1.6.4'
+
+  s.frameworks = 'MessageUI', 'libz.dylib'
 
 end
