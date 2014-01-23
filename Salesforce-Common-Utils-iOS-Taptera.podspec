@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = "Headers/*.h"
   s.header_dir = 'SalesforceCommonUtils'
 
+  s.frameworks = "MessageUI"
+
 end
